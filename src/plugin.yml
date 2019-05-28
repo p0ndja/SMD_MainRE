@@ -1,0 +1,17 @@
+name: SMDMain
+main: me.palapon2545.minecraft.plugins.SMDMain.pluginMain
+version: 1
+description: "That's none of your business, Oh! Sorry. It's my first java bukkit plugin development."
+author: PondJaTH
+softdepend: [BarAPI]
+load: POSTWORLD
+website: https://github.com/p0ndja/SMD_Main
+commands:
+  spawn:
+    description: Teleport you to spawn
+    usage: /<command>
+  setspawn:
+    description: Set the server's global spawn
+    usage: /<command>
+    permission: smdmain.admin.spawn
+  
